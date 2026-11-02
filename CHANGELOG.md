@@ -12,4 +12,3 @@ First public release.
 - PHP 7.2 to 8.5 support.
 - English and Spanish translations.
 - Admin simulator, invoice log and "Recalculate fee" button.
-- Automatic migration from the pre-release `recargopagos` module.

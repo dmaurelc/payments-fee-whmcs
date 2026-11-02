@@ -85,14 +85,6 @@ Los montos fijos, el tope y el mínimo se ingresan en la **moneda por defecto**.
 
 La interfaz del admin usa el idioma del administrador y el checkout el del cliente. Las líneas de factura creadas por el cron o la API usan el idioma del cliente, o el idioma por defecto del sistema. Idiomas incluidos: **inglés** y **español**. Para agregar otro idioma, copia `lang/english.php` como `lang/<idioma>.php`, traduce los textos y agrega la equivalencia en `lib/Lang.php`. Se aceptan pull requests.
 
-## Actualizar desde el módulo de prueba "recargopagos"
-
-Si probaste la versión anterior, solo en español (`modules/addons/recargopagos`), sigue estos pasos:
-1. Sube `paymentsfee` y actívalo. Tus reglas, ajustes y registro de facturas se copian automáticamente.
-2. Desactiva **Recargo por Pasarela** y borra `modules/addons/recargopagos/`.
-
-Las líneas de recargo de las facturas existentes se siguen reconociendo.
-
 ## Desinstalación
 
 Al desactivar el addon las tablas se conservan. Para borrarlo todo:
